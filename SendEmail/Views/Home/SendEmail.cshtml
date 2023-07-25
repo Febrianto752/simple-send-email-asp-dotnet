@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Send Email Page";
+}
+
+
+
+@if(TempData["Success"] != null)
+{
+    <div>Berhasil mengirim email, silakan cek inbox</div>
+}
+
+
+@if(TempData["Error"] != null)
+{
+    <div>gagal mengirim email</div>
+}
+
+<h1>Send Email Page</h1>
